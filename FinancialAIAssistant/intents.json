@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "salve",
+        "opa",
+        "ei",
+        "oi",
+        "ola",
+        "eae"
+      ],
+      "responses": [
+        "Ola, mestre!",
+        "Ola, senhor!"
+      ]
+    },
+    {
+      "tag": "plot_chart",
+      "patterns": [
+        "Grafico",
+        "Faca um grafico",
+        "Mostre-me um grafico dos precos das acoes",
+        "precos das acoes"
+      ],
+      "responses": [
+        "Fazendo o Grafico"
+      ]
+    },
+    {
+      "tag": "add_portfolio",
+      "patterns": [
+        "Adicione uma acao",
+        "Adicionar uma acao ao meu portfolio",
+        "Adicione uma acao na minha lista",
+        "Eu quero adicionar algo no meu portfolio",
+        "Eu quero adicionar uma nova acao",
+        "Eu tenho uma nova acao",
+        "Eu comprei uma acao",
+        "Eu comprei uma nova acao"
+      ],
+      "responses": [
+        "Adicionando a acao"
+      ]
+    },
+    {
+      "tag": "remove_portfolio",
+      "patterns": [
+        "Remova uma acao da lista",
+        "Remova uma acao do meu portfolio",
+        "Remover uma acao",
+        "Delete uma acao da lista",
+        "Eu vendi uma acao",
+        "Eu não tenho mais uma acao",
+        "Eu quero remover uma acao",
+        "Eu vendi uma acao antiga",
+        "Eu estou vendendo uma acao",
+        "Quero remover algo do meu portfolio"
+      ],
+      "responses": [
+        "Removendo a acao"
+      ]
+    },
+    {
+      "tag": "show_portfolio",
+      "patterns": [
+        "Acoes",
+        "Mostre-me meus investimentos",
+        "Mostre-me minhas acoes",
+        "Quais sao minhas acoes",
+        "Quanto estao minhas acoes",
+        "Minhas acoes",
+        "Precos das acoes"
+      ],
+      "responses": [
+        "Mostrando portfolio"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stock_price",
+      "patterns": [
+        "nonsense"
+      ],
+      "responses": [
+        "Precos",
+        "Precos das acoes",
+        "Quero saber o preco de uma acao",
+        "Mostre-me o preco de uma acao",
+        "Qual o preco de uma acao"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "portfolio_worth",
+      "patterns": [
+        "Valor do meu portfolio",
+        "Quanto está valendo a pena meu portfolio?",
+        "Qual é o valor do meu portfolio?"
+      ],
+      "responses": [
+        "Valor do seu portfolio"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "portfolio_gains",
+      "patterns": [
+        "Ganhos",
+        "Como está a performance do meu portfolio?",
+        "Como estão meus ganhos?",
+        "Eu estou lucrando?"
+      ],
+      "responses": [
+        "Ganhos do seu portfolio"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Adeus",
+        "Tchau",
+        "Sair",
+        "Eu tenho que ir agora",
+        "Ate logo",
+        "Flw",
+        "Ate mais",
+        "Te vejo depois"
+      ],
+      "responses": [
+        "Até logo!"
+      ],
+      "context_set": ""
+    }
+  ]
+}

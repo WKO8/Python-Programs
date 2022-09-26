@@ -1,0 +1,5 @@
+{   
+    "author": "author_name",
+    "timestamp": "transaction_time", 
+    "data": "transaction_data"
+}

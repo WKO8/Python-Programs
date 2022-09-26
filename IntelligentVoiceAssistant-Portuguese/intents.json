@@ -1,0 +1,18 @@
+{"intents": 
+[
+    {"tag": "greeting",
+    "patterns": ["Oi", "Eae", "Ola", "Salve", "Como vai?", "Suave?", "Opa"],
+    "responses": ["Ola, Senhor!", "Ola, o que eu posso fazer por voce?"]},
+    {"tag": "create_note",
+    "patterns": ["Criar uma anotacao", "Por favor, crie uma nova anotacao", "Nova anotacao", "Nova nota", "Crie uma anotacao", "Eu quero criar uma anotacao"],
+    "responses": [""]},
+    {"tag": "add_todo",
+    "patterns": ["Adicionar tarefa", "Eu quero adicionar uma tarefa", "Adicione uma nova tarefa", "Adicione uma tarefa na minha lista", "Novo item na minha lista de tarefas"],
+    "responses": [""]},
+    {"tag": "show_todos",
+    "patterns": ["Lista de tarefas","Mostre minhas tarefas", "Quais sao minhas tarefas", "O que esta na minha lista de tarefas"],
+    "responses": [""]},
+    {"tag": "exit",
+    "patterns": ["Tchau", "Flw", "Parar", "Ate mais", "Sair", "Eu quero sair", "Adeus", "Eu quero finalizar", "Eu tenho que ir"],
+    "responses": [""]}
+]}
